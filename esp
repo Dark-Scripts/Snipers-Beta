@@ -4,7 +4,7 @@ local highlight = Instance.new("Highlight")
 highlight.Name = "Highlight"
 
 for i, v in pairs(Players) do
-    repeat wait() until v.Character
+	repeat wait() until v.Character
 	if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
 	local highlightClone = highlight:Clone()
 	highlightClone.Adornee = v.Character
