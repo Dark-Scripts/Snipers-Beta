@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Dark Hub | Snipers-Beta",
-	LoadingTitle = "Dark Hub",
+	Name = "Night Hub | Snipers-Beta",
+	LoadingTitle = "Night Hub",
 	LoadingSubtitle = "by DΔRKぷ#0960",
 	ConfigurationSaving = {
 		Enabled = true,
